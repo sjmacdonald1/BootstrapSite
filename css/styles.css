@@ -1,0 +1,23 @@
+/* This is for the breaking news picture */
+.fit
+{
+    width: 100%;
+    height: auto;
+}
+
+/* This is for the two section pictures at the bottom */
+.fit2
+{
+    float: left;
+    width: 25%;
+    height: auto;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+/* This is just for the dailey bugle title */
+.texttitle
+{
+    font-size: 20pt;
+    font-weight: bold;
+}
