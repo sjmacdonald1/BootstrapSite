@@ -1,3 +1,14 @@
+/* Made a global class so everything uses the custom font */
+/* To use the custom font copy the links in the header of one of my pages(I marked the section of links with "Custom font requirement") 
+and put them in yours, then it should work. */
+*
+{
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* This is for the breaking news picture */
 .fit
 {
@@ -20,4 +31,18 @@
 {
     font-size: 20pt;
     font-weight: bold;
+}
+
+/* These styles are for the page's background colors */
+#newcolor
+{
+    background-color: rgb(34, 143, 253);
+}
+#newcolor2
+{
+    background-color: rgb(255, 0, 0);
+}
+#newcolor3
+{
+    background-color: white;
 }
